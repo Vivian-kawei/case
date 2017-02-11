@@ -1,0 +1,3354 @@
+{
+  "patientData": {
+      "name": {"name": "姓　　名", "value": ""},
+      "age": {"name": "年　　龄", "value": "", "unit": "岁", "rule": "integer"},
+      "gender": {"name": "性　　别", "value": "", "options": [{"name": "男", "value": "1"}, {"name": "女", "value": "2"}]},
+      "maritalStatus": {"name": "婚姻状况", "value": "", "options": [{"name": "已婚"}, {"name": "未婚"}, {"name": "离异"}, {"name": "丧偶"}]},
+      "occupation": {"name": "职　　业", "value": "", "options": [{"name": "居民"}, {"name": "学生"}, {"name": "教师"}, {"name": "军人"}, {"name": "业务员"}, {"name": "公务员"}, {"name": "会计"}, {"name": "其他"}]},
+      "birthPlace": {"name": "出生地　", "value": "", "options": [{"name": "广州市"}, {"name": "深圳市"}, {"name": "珠海市"}, {"name": "佛山市"}]},
+      "ethnicGroup": {"name": "民　　族", "value": "", "options": [{"name": "汉族"}, {"name": "其他"}]
+    }
+  },
+  "complainData": "",
+  "presentData": "",
+  "pastData": "",
+  "personData": {
+    "id": "575567735f24063ff5d22111",
+    "value": [],
+    "options": {
+      "575567775f24063ff5d230bc": {
+        "name": "吸烟史",
+        "isNegative": false
+      },
+      "575567745f24063ff5d22519": {
+        "name": "酗酒史",
+        "isNegative": false
+      },
+      "575567825f24063ff5d25042": {
+        "name": "高盐饮食",
+        "isNegative": false
+      },
+      "57bc09ddf0b433a9e00e1827": {
+        "name": "高脂饮食",
+        "isNegative": false
+      },
+      "575567755f24063ff5d22af8": {
+        "name": "长期粉尘接触史",
+        "isNegative": false
+      },
+      "575567725f24063ff5d21e74": {
+        "name": "刺激性气体吸入史",
+        "isNegative": false
+      },
+      "575567745f24063ff5d225a5": {
+        "name": "放射性物质接触史",
+        "isNegative": false
+      }
+    }
+  },
+  "maritalHistoryData": "",
+  "familyData": {
+    "id": "575567735f24063ff5d22122",
+    "value": [],
+    "options": {
+      "575567735f24063ff5d22126": {
+        "name": "高血压病家族史",
+        "isNegative": false
+      },
+      "575567715f24063ff5d21ad7": {
+        "name": "糖尿病家族史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d22142": {
+        "name": "冠心病家族史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d22203": {
+        "name": "肥胖病家族史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d222f0": {
+        "name": "血液病家族史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d22147": {
+        "name": "肿瘤家族史",
+        "isNegative": false
+      },
+      "577f16b35bb459da5e836ed3": {
+        "name": "脑血管疾病家族史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d2210a": {
+        "name": "遗传病家族史",
+        "isNegative": false
+      }
+    }
+  },
+  "medicineData": {
+    "id": "575567735f24063ff5d22133",
+    "value": [],
+    "options": {
+      "575567715f24063ff5d21aa2": {
+        "name": "头孢菌素类药物过敏史",
+        "isNegative": true
+      },
+      "575567745f24063ff5d22821": {
+        "name": "青霉素类药物过敏史",
+        "isNegative": false
+      },
+      "575567735f24063ff5d22133": {
+        "name": "磺胺类药物过敏史",
+        "isNegative": false
+      },
+      "575567815f24063ff5d25032": {
+        "name": "喹诺酮类药物过敏史",
+        "isNegative": false
+      },
+      "577f16b25bb459da5e836deb": {
+        "name": "吩噻嗪类药物过敏史",
+        "isNegative": false
+      },
+      "575567825f24063ff5d2521e": {
+        "name": "硝酸酯类药物过敏史",
+        "isNegative": false
+      },
+      "575a3f43ce24461ab0ea3f12": {
+        "name": "碘过敏史",
+        "isNegative": false
+      },
+      "577f16b25bb459da5e836d2f": {
+        "name": "二氢吡啶类药物过敏史",
+        "isNegative": false
+      },
+      "575567815f24063ff5d25033": {
+        "name": "氨基糖苷类药物过敏史",
+        "isNegative": false
+      },
+      "575567825f24063ff5d25222": {
+        "name": "阿司匹林药物过敏史",
+        "isNegative": false
+      },
+      "575567815f24063ff5d25034": {
+        "name": "四环素类药物过敏史",
+        "isNegative": false
+      },
+      "577f16b25bb459da5e836df6": {
+        "name": "钙通道阻滞剂类药物过敏史",
+        "isNegative": false
+      },
+      "577f16b25bb459da5e836df2": {
+        "name": "血管紧张素转换酶抑制药过敏史",
+        "isNegative": false
+      }
+    }
+  },
+  "symptomsData": {
+    "a": {
+      "name": "循环系统症状",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d2256a": {
+          "name": "心悸",
+          "isNegative": true
+        },
+        "5846446fb93a26869099246d": {
+          "name": "活动后气促",
+          "isNegative": false
+        },
+        "575567745f24063ff5d226ad": {
+          "name": "咯血",
+          "isNegative": false
+        },
+        "5846446fb93a26869099246e": {
+          "name": "下肢浮肿",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2250b": {
+          "name": "心前区疼痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22508": {
+          "name": "晕厥",
+          "isNegative": false
+        }
+      }
+    },
+    "b": {
+      "name": "消化系统症状",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d224ba": {
+          "name": "食欲不振",
+          "isNegative": true
+        },
+        "575567735f24063ff5d223f1": {
+          "name": "返酸",
+          "isNegative": false
+        },
+        "575567735f24063ff5d22378": {
+          "name": "嗳气",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22542": {
+          "name": "恶心",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22541": {
+          "name": "呕吐",
+          "isNegative": false
+        },
+        "577f16b35bb459da5e836ff4": {
+          "name": "胃痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22537": {
+          "name": "腹痛",
+          "isNegative": false
+        },
+        "575567735f24063ff5d22298": {
+          "name": "便秘",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2253f": {
+          "name": "腹泻",
+          "isNegative": false
+        },
+        "575567735f24063ff5d222bc": {
+          "name": "呕血",
+          "isNegative": false
+        },
+        "575567755f24063ff5d2299b": {
+          "name": "黑便",
+          "isNegative": false
+        },
+        "575567735f24063ff5d222d1": {
+          "name": "便血",
+          "isNegative": false
+        },
+        "577f16b35bb459da5e836fff": {
+          "name": "黄疸",
+          "isNegative": false
+        }
+      }
+    },
+    "c": {
+      "name": "泌尿系统症状",
+      "value": [],
+      "options": {
+        "575567735f24063ff5d2228d": {
+          "name": "腰痛",
+          "isNegative": true
+        },
+        "575567745f24063ff5d22590": {
+          "name": "尿频",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2258f": {
+          "name": "尿急",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2257b": {
+          "name": "尿痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2268d": {
+          "name": "排尿困难",
+          "isNegative": false
+        },
+        "5816ea663832aa890c2789da": {
+          "name": "血尿",
+          "isNegative": false
+        },
+        "5846446fb93a268690992470": {
+          "name": "尿量异常",
+          "isNegative": false
+        },
+        "5846446fb93a268690992471": {
+          "name": "夜尿增多",
+          "isNegative": false
+        },
+        "575567745f24063ff5d224c0": {
+          "name": "面目浮肿",
+          "isNegative": false
+        }
+      }
+    },
+    "d": {
+      "name": "血液系统症状",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d22520": {
+          "name": "乏力",
+          "isNegative": true
+        },
+        "575a3f10ce24461ab0ea35b5": {
+          "name": "头晕",
+          "isNegative": false
+        },
+        "575567735f24063ff5d224a9": {
+          "name": "耳鸣",
+          "isNegative": false
+        },
+        "575567735f24063ff5d222b3": {
+          "name": "牙龈出血",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2253e": {
+          "name": "视物模糊",
+          "isNegative": false
+        },
+        "5846446fb93a268690992472": {
+          "name": "鼻衄",
+          "isNegative": false
+        },
+        "577f16b35bb459da5e837022": {
+          "name": "皮下出血",
+          "isNegative": false
+        }
+      }
+    },
+    "e": {
+      "name": "内分泌代谢症状",
+      "value": [],
+      "options": {
+        "575567755f24063ff5d22add": {
+          "name": "食欲亢进",
+          "isNegative": true
+        },
+        "5846446fb93a26869099246f": {
+          "name": "食欲减退",
+          "isNegative": false
+        },
+        "575567755f24063ff5d22899": {
+          "name": "怕热",
+          "isNegative": false
+        },
+        "575a3f3bce24461ab0ea3d9d": {
+          "name": "畏寒",
+          "isNegative": false
+        },
+        "575567755f24063ff5d2288f": {
+          "name": "多饮",
+          "isNegative": false
+        },
+        "5816ea663832aa890c2789ac": {
+          "name": "多尿",
+          "isNegative": false
+        },
+        "575567755f24063ff5d22ade": {
+          "name": "肥胖",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22516": {
+          "name": "消瘦",
+          "isNegative": false
+        },
+        "5846446fb93a268690992473": {
+          "name": "毛发增多",
+          "isNegative": false
+        },
+        "575567735f24063ff5d22341": {
+          "name": "毛发脱落",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22655": {
+          "name": "色素沉着斑",
+          "isNegative": false
+        },
+        "575567745f24063ff5d227d4": {
+          "name": "感觉异常",
+          "isNegative": false
+        }
+      }
+    },
+    "f": {
+      "name": "神经精神症状",
+      "value": [],
+      "options": {
+        "575a3f10ce24461ab0ea35b5": {
+          "name": "头晕",
+          "isNegative": false
+        },
+        "575a3f10ce24461ab0ea35c0": {
+          "name": "头痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22531": {
+          "name": "眩晕",
+          "isNegative": false
+        },
+        "5846446fb93a268690992475": {
+          "name": "记忆力减退",
+          "isNegative": false
+        },
+        "575567715f24063ff5d21a62": {
+          "name": "视力障碍",
+          "isNegative": false
+        },
+        "575567735f24063ff5d2247c": {
+          "name": "失眠",
+          "isNegative": false
+        },
+        "5846446fb93a268690992476": {
+          "name": "瞌睡",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22508": {
+          "name": "晕厥",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22552": {
+          "name": "意识障碍",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2259e": {
+          "name": "抽搐",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22661": {
+          "name": "瘫痪",
+          "isNegative": false
+        },
+        "575567745f24063ff5d227d4": {
+          "name": "感觉异常",
+          "isNegative": false
+        }
+      }
+    },
+    "g": {
+      "name": "生殖系统症状（男性）",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d227c1": {
+          "name": "阴囊不适",
+          "isNegative": true
+        },
+        "575567745f24063ff5d227bd": {
+          "name": "阴囊疼痛",
+          "isNegative": false
+        },
+        "575567785f24063ff5d235fc": {
+          "name": "阴茎疼痛",
+          "isNegative": false
+        },
+        "575567735f24063ff5d2247a": {
+          "name": "睾丸疼痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2275a": {
+          "name": "附睾疼痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22754": {
+          "name": "阴囊坠胀",
+          "isNegative": false
+        },
+        "575567745f24063ff5d227c3": {
+          "name": "阴囊肿胀",
+          "isNegative": false
+        },
+        "575567785f24063ff5d2360d": {
+          "name": "阴茎瘙痒",
+          "isNegative": false
+        },
+        "575567765f24063ff5d22d3b": {
+          "name": "龟头疼痛",
+          "isNegative": false
+        },
+        "575567765f24063ff5d22d49": {
+          "name": "输精管疼痛",
+          "isNegative": false
+        }
+      }
+    },
+    "h": {
+      "name": "生殖系统症状（女性）",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d225b2": {
+          "name": "痛经",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22667": {
+          "name": "阴道出血",
+          "isNegative": false
+        },
+        "575567715f24063ff5d21c49": {
+          "name": "月经量多",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22665": {
+          "name": "月经不调",
+          "isNegative": false
+        },
+        "575567725f24063ff5d21d82": {
+          "name": "停经",
+          "isNegative": false
+        },
+        "575567735f24063ff5d22344": {
+          "name": "闭经",
+          "isNegative": false
+        },
+        "57bc09ddf0b433a9e00e1855": {
+          "name": "阴道分泌物",
+          "isNegative": false
+        }
+      }
+    },
+    "i": {
+      "name": "运动系统症状",
+      "value": [],
+      "options": {
+        "575567745f24063ff5d22597": {
+          "name": "关节疼痛",
+          "isNegative": true
+        },
+        "5846446fb93a268690992477": {
+          "name": "游走性关节痛",
+          "isNegative": false
+        },
+        "5846446fb93a268690992478": {
+          "name": "关节变形",
+          "isNegative": false
+        },
+        "575567745f24063ff5d2258d": {
+          "name": "肌肉疼痛",
+          "isNegative": false
+        },
+        "575567745f24063ff5d22638": {
+          "name": "肌肉萎缩",
+          "isNegative": false
+        }
+      }
+    }
+  },
+  "baseConditionData": {
+    "height": {
+      "name": "身　　高",
+      "value": "",
+      "unit": "cm",
+      "rule": "float"
+    },
+    "weight": {
+      "name": "体　　重",
+      "value": "",
+      "unit": "kg",
+      "rule": "float"
+    },
+    "waistline": {
+      "name": "腰　　围",
+      "value": "",
+      "unit": "cm",
+      "rule": "float"
+    },
+    "hipline": {
+      "name": "臀　　围",
+      "value": "",
+      "unit": "cm",
+      "rule": "float"
+    },
+    "heartRate": {
+      "name": "心　　率",
+      "value": "",
+      "unit": "次/分",
+      "rule": "float"
+    },
+    "temperature": {
+      "name": "体　　温",
+      "value": "",
+      "unit": "°C",
+      "rule": "float"
+    },
+    "breathRate": {
+      "name": "呼吸频率",
+      "value": "",
+      "unit": "次/分",
+      "rule": "float"
+    },
+    "sbp": {
+      "name": "收缩压　",
+      "value": "",
+      "unit": "mmHg",
+      "rule": "float"
+    },
+    "dbp": {
+      "name": "舒张压　",
+      "value": "",
+      "unit": "mmHg",
+      "rule": "float"
+    }
+  },
+  "extendConditionData": {
+    "584fd5a5b93a53e4077db97d": {
+      "name": "发育情况",
+      "value": "",
+      "options": [
+        {
+          "name": "正常",
+          "isNegative": true
+        },
+        {
+          "name": "一般",
+          "isNegative": false
+        },
+        {
+          "name": "良好",
+          "isNegative": false
+        },
+        {
+          "name": "异常",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db97e": {
+      "name": "营养状况",
+      "value": "",
+      "options": [
+        {
+          "name": "良好",
+          "isNegative": false
+        },
+        {
+          "name": "一般",
+          "isNegative": false
+        },
+        {
+          "name": "差",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db97f": {
+      "name": "体型状况",
+      "value": "",
+      "options": [
+        {
+          "name": "正常",
+          "isNegative": true
+        },
+        {
+          "name": "良好",
+          "isNegative": false
+        },
+        {
+          "name": "消瘦",
+          "isNegative": false
+        },
+        {
+          "name": "肥胖",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db980": {
+      "name": "表　　情",
+      "value": "",
+      "options": [
+        {
+          "name": "表情自然",
+          "isNegative": false
+        },
+        {
+          "name": "表情僵硬",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db981": {
+      "name": "神　　志",
+      "value": "",
+      "options": [
+        {
+          "name": "神志清楚",
+          "isNegative": false
+        },
+        {
+          "name": "神志不清",
+          "isNegative": false
+        },
+        {
+          "name": "情绪不稳",
+          "isNegative": false
+        },
+        {
+          "name": "喜怒无常",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db982": {
+      "name": "应答情况",
+      "value": "",
+      "options": [
+        {
+          "name": "应答切题",
+          "isNegative": false
+        },
+        {
+          "name": "答非所问",
+          "isNegative": false
+        }
+      ]
+    },
+    "5755677a5f24063ff5d23c9a": {
+      "name": "体　　位",
+      "value": "",
+      "options": [
+        {
+          "name": "正常",
+          "isNegative": true
+        },
+        {
+          "name": "异常",
+          "isNegative": false
+        }
+      ]
+    },
+    "584fd5a5b93a53e4077db983": {
+      "name": "面　　色",
+      "value": "",
+      "options": [
+        {
+          "name": "正常",
+          "isNegative": true
+        },
+        {
+          "name": "面色发白",
+          "isNegative": false
+        },
+        {
+          "name": "面色紫暗",
+          "isNegative": false
+        },
+        {
+          "name": "面色红润",
+          "isNegative": false
+        },
+        {
+          "name": "面色发青",
+          "isNegative": false
+        },
+        {
+          "name": "面色晦暗",
+          "isNegative": false
+        },
+        {
+          "name": "面色发红",
+          "isNegative": false
+        },
+        {
+          "name": "面色晦黄",
+          "isNegative": false
+        },
+        {
+          "name": "面色紫红",
+          "isNegative": false
+        }
+      ]
+    }
+  },
+  "bodyCheckData": {
+    "a": {
+      "id": "575567765f24063ff5d22f0d",
+      "category": "头部",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb7659": {
+          "id": "584f788bb93abe0b07fb7659",
+          "name": "头颅大小",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7676": {
+          "id": "584f788bb93abe0b07fb7676",
+          "name": "头颅形态",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a26869099247f": {
+              "name": "畸形",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb765a": {
+          "id": "584f788bb93abe0b07fb765a",
+          "name": "头发分布",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "b": {
+      "id": "5755677a5f24063ff5d23ad3",
+      "category": "眼部",
+      "active": true,
+      "items": {
+        "5755677a5f24063ff5d23c3b": {
+          "id": "5755677a5f24063ff5d23c3b",
+          "name": "眼睑",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992479": {
+              "name": "无眼睑水肿",
+              "isNegative": false
+            },
+            "575567735f24063ff5d224ad": {
+              "name": "眼睑浮肿",
+              "isNegative": true
+            }
+          }
+        },
+        "5755677a5f24063ff5d23d41": {
+          "id": "5755677a5f24063ff5d23d41",
+          "name": "结膜",
+          "value": [],
+          "options": {
+            "575567785f24063ff5d235cd": {
+              "name": "无结膜充血",
+              "isNegative": false
+            },
+            "575567745f24063ff5d224c4": {
+              "name": "结膜充血",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7675": {
+          "id": "584f788bb93abe0b07fb7675",
+          "name": "突眼",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247a": {
+              "name": "无眼突",
+              "isNegative": false
+            },
+            "575567755f24063ff5d22966": {
+              "name": "眼球突出",
+              "isNegative": true
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec71": {
+          "id": "5757d0bc5f249434d278ec71",
+          "name": "巩膜",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247b": {
+              "name": "无巩膜黄染",
+              "isNegative": false
+            },
+            "575567755f24063ff5d22957": {
+              "name": "巩膜黄染",
+              "isNegative": true
+            }
+          }
+        },
+        "5755677a5f24063ff5d23d54": {
+          "id": "5755677a5f24063ff5d23d54",
+          "name": "角膜",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247c": {
+              "name": "无角膜溃疡",
+              "isNegative": false
+            },
+            "575567715f24063ff5d21b35": {
+              "name": "角膜溃疡",
+              "isNegative": true
+            },
+            "575567715f24063ff5d21b24": {
+              "name": "角膜水肿",
+              "isNegative": true
+            },
+            "575567785f24063ff5d233b9": {
+              "name": "角膜色素环",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7657": {
+          "id": "584f788bb93abe0b07fb7657",
+          "name": "瞳孔大小",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992481": {
+              "name": "等圆等大",
+              "isNegative": false
+            },
+            "5846446fb93a268690992482": {
+              "name": "左右不等",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "左",
+                  "右"
+                ],
+                "description": [
+                  "",
+                  ""
+                ],
+                "unit": [
+                  "mm",
+                  "mm"
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7658": {
+          "id": "584f788bb93abe0b07fb7658",
+          "name": "瞳孔对光反射",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a268690992483": {
+              "name": "迟钝",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            },
+            "5846446fb93a268690992484": {
+              "name": "消失",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "c": {
+      "id": "575567735f24063ff5d220df",
+      "category": "耳部",
+      "active": true,
+      "items": {
+        "57bc09def0b433a9e00e1acc": {
+          "id": "57bc09def0b433a9e00e1acc",
+          "name": "耳廓",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a26869099247f": {
+              "name": "畸形",
+              "isNegative": false
+            },
+            "575567795f24063ff5d23a88": {
+              "name": "其他",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7653": {
+          "id": "584f788bb93abe0b07fb7653",
+          "name": "外耳道分泌物",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        },
+        "5846446fb93a268690992489": {
+          "id": "5846446fb93a268690992489",
+          "name": "乳突压痛",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        },
+        "5846446fb93a26869099248d": {
+          "id": "5846446fb93a26869099248d",
+          "name": "听力障碍",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "575567735f24063ff5d224a8": {
+              "name": "听力丧失",
+              "isNegative": false
+            },
+            "575567725f24063ff5d2201d": {
+              "name": "先天性耳聋",
+              "isNegative": false
+            },
+            "575567735f24063ff5d22474": {
+              "name": "听力减退",
+              "isNegative": false
+            },
+            "575567735f24063ff5d2213e": {
+              "name": "传导性耳聋",
+              "isNegative": false
+            }
+          }
+        }
+      }
+    },
+    "d": {
+      "id": "57bc09ddf0b433a9e00e181f",
+      "category": "鼻部",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb7654": {
+          "id": "584f788bb93abe0b07fb7654",
+          "name": "鼻翼扇动",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7655": {
+          "id": "584f788bb93abe0b07fb7655",
+          "name": "鼻分泌物",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "性状"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7656": {
+          "id": "584f788bb93abe0b07fb7656",
+          "name": "副鼻窦压痛",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "e": {
+      "id": "5755677a5f24063ff5d23c5c",
+      "category": "口腔",
+      "active": true,
+      "items": {
+        "575567785f24063ff5d236b6": {
+          "id": "575567785f24063ff5d236b6",
+          "name": "口唇",
+          "value": [],
+          "options": {
+            "577f14c65bb459da5e836d16": {
+              "name": "无发绀",
+              "isNegative": false
+            },
+            "575567745f24063ff5d22553": {
+              "name": "发绀",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7673": {
+          "id": "584f788bb93abe0b07fb7673",
+          "name": "口腔粘膜",
+          "value": [],
+          "options": {
+            "575567745f24063ff5d224c7": {
+              "name": "口腔粘膜充血",
+              "isNegative": true
+            },
+            "575567725f24063ff5d21d44": {
+              "name": "口腔粘膜白斑",
+              "isNegative": true
+            },
+            "575567725f24063ff5d21e2e": {
+              "name": "口腔粘膜出血",
+              "isNegative": true
+            },
+            "575567785f24063ff5d23733": {
+              "name": "口腔粘膜丘疹",
+              "isNegative": true
+            },
+            "575567715f24063ff5d21b05": {
+              "name": "口腔肿物",
+              "isNegative": true
+            }
+          }
+        },
+        "5755677a5f24063ff5d23d08": {
+          "id": "5755677a5f24063ff5d23d08",
+          "name": "舌",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099248e": {
+              "name": "伸舌居中",
+              "isNegative": false
+            },
+            "575567715f24063ff5d21a22": {
+              "name": "舌背白斑",
+              "isNegative": true
+            },
+            "575567795f24063ff5d23800": {
+              "name": "舌活动受限",
+              "isNegative": true
+            },
+            "575567775f24063ff5d2315a": {
+              "name": "舌生瘀点",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb765b": {
+          "id": "584f788bb93abe0b07fb765b",
+          "name": "齿列",
+          "value": [],
+          "options": {
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "缺齿",
+                  "龋齿"
+                ],
+                "description": [
+                  "",
+                  ""
+                ],
+                "unit": [
+                  "颗",
+                  "颗"
+                ]
+              }
+            },
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "缺齿",
+                  "龋齿"
+                ],
+                "description": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb765c": {
+          "id": "584f788bb93abe0b07fb765c",
+          "name": "齿龈",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec80": {
+          "id": "5757d0bc5f249434d278ec80",
+          "name": "扁桃体",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d224d4": {
+              "name": "扁桃体充血",
+              "isNegative": true
+            },
+            "575567785f24063ff5d23781": {
+              "name": "扁桃体溃疡",
+              "isNegative": true
+            },
+            "575567745f24063ff5d224df": {
+              "name": "扁桃体肿大",
+              "isNegative": true
+            },
+            "575567755f24063ff5d22b8b": {
+              "name": "扁桃体糜烂",
+              "isNegative": true
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec7d": {
+          "id": "5757d0bc5f249434d278ec7d",
+          "name": "咽部",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d224d7": {
+              "name": "咽部充血",
+              "isNegative": true
+            },
+            "575567785f24063ff5d2377b": {
+              "name": "咽部肿物",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7674": {
+          "id": "584f788bb93abe0b07fb7674",
+          "name": "声音",
+          "value": [],
+          "options": {
+            "575567775f24063ff5d23264": {
+              "name": "无声嘶",
+              "isNegative": false
+            },
+            "5816ea663832aa890c2789dd": {
+              "name": "声嘶",
+              "isNegative": false
+            }
+          }
+        }
+      }
+    },
+    "f": {
+      "id": "575567765f24063ff5d22f3b",
+      "category": "颈部",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb765d": {
+          "id": "584f788bb93abe0b07fb765d",
+          "name": "颈部强直",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb765e": {
+          "id": "584f788bb93abe0b07fb765e",
+          "name": "颈动脉搏动",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a26869099248f": {
+              "name": "增强",
+              "isNegative": false
+            },
+            "5846446fb93a268690992490": {
+              "name": "一侧减弱",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "左",
+                  "右"
+                ],
+                "description": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb765f": {
+          "id": "584f788bb93abe0b07fb765f",
+          "name": "颈静脉",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a268690992491": {
+              "name": "颈静脉充盈",
+              "isNegative": false
+            },
+            "575567745f24063ff5d224de": {
+              "name": "颈静脉怒张",
+              "isNegative": true
+            }
+          }
+        },
+        "575567735f24063ff5d22299": {
+          "id": "575567735f24063ff5d22299",
+          "name": "肝颈静脉回流征",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992492": {
+              "name": "阴性",
+              "isNegative": false
+            },
+            "5846446fb93a268690992493": {
+              "name": "阳性",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7660": {
+          "id": "584f788bb93abe0b07fb7660",
+          "name": "气管位置",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992494": {
+              "name": "正中",
+              "isNegative": false
+            },
+            "5846446fb93a268690992495": {
+              "name": "偏移",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": false,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        },
+        "57bc09def0b433a9e00e1afe": {
+          "id": "57bc09def0b433a9e00e1afe",
+          "name": "甲状腺",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d2271b": {
+              "name": "甲状腺肿大",
+              "isNegative": true,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "575567795f24063ff5d238c9": {
+          "id": "575567795f24063ff5d238c9",
+          "name": "血管杂音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "g": {
+      "id": "5757d0bc5f249434d278ebe9",
+      "category": "胸部",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb7661": {
+          "id": "584f788bb93abe0b07fb7661",
+          "name": "胸廓",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d225e7": {
+              "name": "桶状胸",
+              "isNegative": false
+            },
+            "5846446fb93a268690992496": {
+              "name": "膨隆",
+              "isNegative": false
+            },
+            "5846446fb93a268690992497": {
+              "name": "凹陷",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": false,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        },
+        "5755677a5f24063ff5d23b44": {
+          "id": "5755677a5f24063ff5d23b44",
+          "name": "乳房",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7662": {
+          "id": "584f788bb93abe0b07fb7662",
+          "name": "胸骨叩痛",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        }
+      }
+    },
+    "h": {
+      "id": "584f788bb93abe0b07fb7663",
+      "category": "肺部",
+      "active": true,
+      "subCategory": true,
+      "items": {
+        "5755677a5f24063ff5d23b56": {
+          "subCategory": "视诊",
+          "id": "5755677a5f24063ff5d23b56",
+          "name": "呼吸运动 ",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7664": {
+          "subCategory": "触诊",
+          "id": "584f788bb93abe0b07fb7664",
+          "name": "语颤",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "577f16b25bb459da5e836d75": {
+          "subCategory": "触诊",
+          "id": "577f16b25bb459da5e836d75",
+          "name": "胸膜摩擦感",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7665": {
+          "subCategory": "触诊",
+          "id": "584f788bb93abe0b07fb7665",
+          "name": "皮下捻发感",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7677": {
+          "subCategory": "叩诊",
+          "id": "584f788bb93abe0b07fb7677",
+          "name": "叩诊音",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992498": {
+              "name": "正常清音",
+              "isNegative": false
+            },
+            "5846446fb93a268690992499": {
+              "name": "过清音",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "5846446fb93a26869099249a": {
+              "name": "实音",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "5846446fb93a26869099249b": {
+              "name": "浊音",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "5846446fb93a26869099249c": {
+              "name": "鼓音",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "5755677a5f24063ff5d23bc9": {
+          "subCategory": "叩诊",
+          "id": "5755677a5f24063ff5d23bc9",
+          "name": "肺下界",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "description": [],
+                "isMultiple": true,
+                "options": [
+                  "左",
+                  "右"
+                ]
+              }
+            },
+            "584e60d9b93ad160bb499717": {
+              "name": "锁骨中线",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "左"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "肋间"
+                ]
+              }
+            },
+            "584e60d9b93ad160bb499718": {
+              "name": "腋中线",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "右"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "肋间"
+                ]
+              }
+            },
+            "584e60d9b93ad160bb499719": {
+              "name": "肩胛线",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "左"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "肋间"
+                ]
+              }
+            },
+            "575567795f24063ff5d23999": {
+              "name": "肺下界移动度",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "右"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "肋间"
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7642": {
+          "subCategory": "听诊",
+          "id": "584f788bb93abe0b07fb7642",
+          "name": "呼吸音",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "575567735f24063ff5d22346": {
+          "subCategory": "听诊",
+          "id": "575567735f24063ff5d22346",
+          "name": "啰音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7678": {
+          "subCategory": "听诊",
+          "id": "584f788bb93abe0b07fb7678",
+          "name": "语音传导",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "575567755f24063ff5d22b0b": {
+          "subCategory": "听诊",
+          "id": "575567755f24063ff5d22b0b",
+          "name": "胸膜摩擦音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "i": {
+      "id": "584f788bb93abe0b07fb7666",
+      "category": "心脏",
+      "active": true,
+      "subCategory": true,
+      "items": {
+        "575567795f24063ff5d23a9f": {
+          "subCategory": "视诊",
+          "id": "575567795f24063ff5d23a9f",
+          "name": "心尖搏动",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a26869099249e": {
+              "name": "未见",
+              "isNegative": false
+            },
+            "5846446fb93a26869099248f": {
+              "name": "增强",
+              "isNegative": false
+            },
+            "5846446fb93a26869099249d": {
+              "name": "弥散",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb7679": {
+          "subCategory": "视诊",
+          "id": "584f788bb93abe0b07fb7679",
+          "name": "剑突下搏动",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb767a": {
+          "subCategory": "视诊",
+          "id": "584f788bb93abe0b07fb767a",
+          "name": "心尖搏动位置",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a26869099249f": {
+              "name": "移动",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "距左锁骨中线内",
+                  "距左锁骨中线外"
+                ],
+                "description": [
+                  "",
+                  ""
+                ],
+                "unit": [
+                  "cm",
+                  "cm"
+                ]
+              }
+            }
+          }
+        },
+        "575567795f24063ff5d23a8e": {
+          "subCategory": "触诊",
+          "id": "575567795f24063ff5d23a9f",
+          "name": "心尖搏动",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d225e0": {
+              "name": "抬举性心尖搏动",
+              "isNegative": true
+            },
+            "5846446fb93a2686909924a0": {
+              "name": "负性心尖搏动",
+              "isNegative": true
+            }
+          }
+        },
+        "575567725f24063ff5d21c8d": {
+          "subCategory": "触诊",
+          "id": "575567725f24063ff5d21c8d",
+          "name": "震颤",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "cm"
+                ]
+              }
+            }
+          }
+        },
+        "584f788bb93abe0b07fb767b": {
+          "subCategory": "叩诊",
+          "id": "584f788bb93abe0b07fb767b",
+          "name": "心相对浊音界",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a1": {
+              "name": "缩小",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a2": {
+              "name": "扩大",
+              "isNegative": false
+            }
+          }
+        },
+        "575567795f24063ff5d239a9": {
+          "subCategory": "听诊",
+          "id": "575567795f24063ff5d239a9",
+          "name": "心率",
+          "value": [],
+          "options": {}
+        },
+        "584f788bb93abe0b07fb764b": {
+          "subCategory": "听诊",
+          "id": "584f788bb93abe0b07fb764b",
+          "name": "心律",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099243a": {
+              "name": "心律齐",
+              "isNegative": false
+            },
+            "575567725f24063ff5d21fdd": {
+              "name": "心律不齐",
+              "isNegative": true
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec41": {
+          "subCategory": "听诊",
+          "id": "5757d0bc5f249434d278ec41",
+          "name": "心音",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb767c": {
+          "subCategory": "听诊",
+          "id": "584f788bb93abe0b07fb767c",
+          "name": "附加心音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a6": {
+              "name": "S3",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a7": {
+              "name": "S4",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a3": {
+              "name": "开瓣音",
+              "isNegative": false
+            }
+          }
+        },
+        "575567755f24063ff5d22a64": {
+          "subCategory": "听诊",
+          "id": "575567755f24063ff5d22a64",
+          "name": "心包摩擦音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "577f16b25bb459da5e836d7b": {
+          "subCategory": "听诊",
+          "id": "577f16b25bb459da5e836d7b",
+          "name": "杂音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位",
+                  "性质"
+                ],
+                "description": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "j": {
+      "id": "5757d0bc5f249434d278ebeb",
+      "category": "腹部",
+      "active": true,
+      "subCategory": true,
+      "items": {
+        "584f788bb93abe0b07fb767d": {
+          "subCategory": "视诊",
+          "id": "584f788bb93abe0b07fb767d",
+          "name": "外形",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "5846446fb93a268690992496": {
+              "name": "膨隆",
+              "isNegative": true
+            },
+            "575567775f24063ff5d2317d": {
+              "name": "舟状腹",
+              "isNegative": true
+            },
+            "5846446fb93a2686909924b1": {
+              "name": "蛙腹",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788bb93abe0b07fb767e": {
+          "subCategory": "视诊",
+          "id": "584f788bb93abe0b07fb767e",
+          "name": "胃形",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788bb93abe0b07fb767f": {
+          "subCategory": "视诊",
+          "id": "584f788bb93abe0b07fb767f",
+          "name": "肠形",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "575567755f24063ff5d22930": {
+          "subCategory": "视诊",
+          "id": "575567755f24063ff5d22930",
+          "name": "腹壁静脉曲张",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "方向"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7680": {
+          "subCategory": "视诊",
+          "id": "584f788cb93abe0b07fb7680",
+          "name": "手术疤痕",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7681": {
+          "subCategory": "触诊",
+          "id": "584f788cb93abe0b07fb7681",
+          "name": "腹软状态",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924ae": {
+              "name": "全腹柔软",
+              "isNegative": false
+            },
+            "575567745f24063ff5d2268c": {
+              "name": "腹肌紧张",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "5755677a5f24063ff5d23b5a": {
+          "subCategory": "触诊",
+          "id": "5755677a5f24063ff5d23b5a",
+          "name": "压痛",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "575567735f24063ff5d22347": {
+          "subCategory": "触诊",
+          "id": "575567735f24063ff5d22347",
+          "name": "反跳痛",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec9c": {
+          "subCategory": "触诊",
+          "id": "5757d0bc5f249434d278ec9c",
+          "name": "肝",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924ad": {
+              "name": "右肋下未触及",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924ac": {
+              "name": "右肋下触及",
+              "isNegative": false
+            }
+          }
+        },
+        "575567795f24063ff5d23862": {
+          "subCategory": "触诊",
+          "id": "575567795f24063ff5d23862",
+          "name": "胆囊",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924ad": {
+              "name": "右肋下未触及",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924ac": {
+              "name": "右肋下触及",
+              "isNegative": false
+            }
+          }
+        },
+        "5757d0bc5f249434d278ec9f": {
+          "subCategory": "触诊",
+          "id": "5757d0bc5f249434d278ec9f",
+          "name": "脾",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924ab": {
+              "name": "左肋下未触及",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924aa": {
+              "name": "左肋下触及",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7682": {
+          "subCategory": "触诊",
+          "id": "584f788cb93abe0b07fb7682",
+          "name": "肾",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924a9": {
+              "name": "双肾区无叩痛",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a8": {
+              "name": "双肾区叩痛",
+              "isNegative": true
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7683": {
+          "subCategory": "触诊",
+          "id": "584f788cb93abe0b07fb7683",
+          "name": "腹部包块",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7684": {
+          "subCategory": "触诊",
+          "id": "584f788cb93abe0b07fb7684",
+          "name": "Murphy征",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992492": {
+              "name": "阴性",
+              "isNegative": false
+            },
+            "5846446fb93a268690992493": {
+              "name": "阳性",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7685": {
+          "subCategory": "叩诊",
+          "id": "584f788cb93abe0b07fb7685",
+          "name": "肝浊单界",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924af": {
+              "name": "存在",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924a1": {
+              "name": "缩小",
+              "isNegative": false
+            },
+            "5846446fb93a268690992484": {
+              "name": "消失",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788cb93abe0b07fb768a": {
+          "subCategory": "叩诊",
+          "id": "584f788cb93abe0b07fb768a",
+          "name": "肝上界",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924b0": {
+              "name": "右锁骨中线",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "右锁骨中线"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "肋间"
+                ]
+              }
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7686": {
+          "subCategory": "叩诊",
+          "id": "584f788cb93abe0b07fb7686",
+          "name": "移动性浊音",
+          "value": [],
+          "options": {
+            "5846446fb93a268690992492": {
+              "name": "阴性",
+              "isNegative": false
+            },
+            "5846446fb93a268690992493": {
+              "name": "阳性",
+              "isNegative": false
+            }
+          }
+        },
+        "575567735f24063ff5d2237b": {
+          "subCategory": "叩诊",
+          "id": "575567735f24063ff5d2237b",
+          "name": "腹水",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "度"
+                ]
+              }
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7687": {
+          "subCategory": "听诊",
+          "id": "584f788cb93abe0b07fb7687",
+          "name": "肠鸣音",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567755f24063ff5d229b0": {
+              "name": "肠鸣音亢进1",
+              "isNegative": false
+            },
+            "575567755f24063ff5d229f7": {
+              "name": "肠鸣音减弱",
+              "isNegative": false
+            },
+            "575567725f24063ff5d21f56": {
+              "name": "肠鸣音消失",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7688": {
+          "subCategory": "听诊",
+          "id": "584f788cb93abe0b07fb7688",
+          "name": "气过水声",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false
+            }
+          }
+        },
+        "575567795f24063ff5d238c9": {
+          "subCategory": "听诊",
+          "id": "575567795f24063ff5d238c9",
+          "name": "血管杂音",
+          "value": [],
+          "options": {
+            "5846446fb93a26869099247e": {
+              "name": "无",
+              "isNegative": false
+            },
+            "5846446fb93a268690992480": {
+              "name": "有",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ],
+                "unit": [
+                  "度"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "k": {
+      "id": "584f788bb93abe0b07fb7667",
+      "category": "直肠肛门",
+      "active": true,
+      "items": {
+        "5755677a5f24063ff5d23b13": {
+          "id": "5755677a5f24063ff5d23b13",
+          "name": "直肠",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924b2": {
+              "name": "未查",
+              "isNegative": false
+            },
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false
+            }
+          }
+        },
+        "584f788cb93abe0b07fb7689": {
+          "id": "584f788cb93abe0b07fb7689",
+          "name": "肛门",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924b2": {
+              "name": "未查",
+              "isNegative": false
+            },
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false
+            }
+          }
+        }
+      }
+    },
+    "l": {
+      "id": "584f788bb93abe0b07fb7668",
+      "category": "外生殖器",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924b2": {
+              "name": "未查",
+              "isNegative": false
+            },
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "m": {
+      "id": "575567785f24063ff5d234ba",
+      "category": "脊柱",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567745f24063ff5d22637": {
+              "name": "脊柱畸形",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "575567715f24063ff5d21aad": {
+              "name": "脊柱压痛",
+              "isNegative": true,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "n": {
+      "id": "575567795f24063ff5d239cc",
+      "category": "四肢",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567735f24063ff5d222b6": {
+              "name": "关节红肿",
+              "isNegative": true,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "5846446fb93a2686909924b3": {
+              "name": "关节强直",
+              "isNegative": true,
+              "descriptions": {
+                "name": [
+                  "部位"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            },
+            "575567755f24063ff5d22b04": {
+              "name": "杵状指(趾)",
+              "isNegative": true
+            },
+            "575567745f24063ff5d22638": {
+              "name": "肌肉萎缩",
+              "isNegative": true
+            }
+          }
+        }
+      }
+    },
+    "o": {
+      "id": "584f788bb93abe0b07fb7652",
+      "category": "神经检查",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "575567825f24063ff5d250a2": {
+              "name": "正常",
+              "isNegative": false
+            },
+            "575567815f24063ff5d2501d": {
+              "name": "异常",
+              "isNegative": false,
+              "descriptions": {
+                "name": [
+                  "描述"
+                ],
+                "description": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "p": {
+      "id": "584fd5a5b93a53e4077db97e",
+      "category": "营养状况",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "584fdb37b93a53e4077db985": {
+              "name": "良好",
+              "isNegative": false
+            },
+            "584fdb37b93a53e4077db984": {
+              "name": "一般",
+              "isNegative": false
+            },
+            "584fdb37b93a53e4077db987": {
+              "name": "差",
+              "isNegative": false
+            }
+          }
+        }
+      }
+    },
+    "q": {
+      "id": "584f788bb93abe0b07fb7669",
+      "category": "足背动脉",
+      "active": true,
+      "items": {
+        "584f788bb93abe0b07fb763a": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "结果",
+          "value": [],
+          "options": {
+            "5846446fb93a2686909924b4": {
+              "name": "足背动脉触及",
+              "isNegative": false
+            },
+            "5846446fb93a2686909924b5": {
+              "name": "足背动脉未触及",
+              "isNegative": true
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "labExamData": {
+    "575622135f24ca19a715d32b": {
+      "id": "575622135f24ca19a715d32b",
+      "category": "尿液微量蛋白测定",
+      "active": true,
+      "items": {
+        "5848c2fbb93a10a945374f04": {
+          "id": "584f788bb93abe0b07fb763a",
+          "name": "尿微量白蛋白测定",
+          "value": "",
+          "refValueFrom": "0.49",
+          "refValueTo": "2.05",
+          "unit": "mg/mmol"
+        }
+      }
+    },
+    "577f2f575bb459da5e838aea": {
+      "id": "577f2f575bb459da5e838aea",
+      "category": "尿常规",
+      "active": true,
+      "items": {
+        "5848c2fbb93a10a945374f04": {
+          "id": "575567815f24063ff5d24f0d",
+          "name": "尿葡萄糖(GLU)测定",
+          "value": "",
+          "refValueFrom": "0",
+          "refValueTo": "0",
+          "unit": "mmol/L"
+        }
+      }
+    },
+    "5846446fb93a268690992454": {
+      "id": "5846446fb93a268690992454",
+      "category": "肾功能4项",
+      "active": true,
+      "items": {
+        "575567815f24063ff5d24eba": {
+          "id": "575567815f24063ff5d24eba",
+          "name": "血清肌酐(Cr)测定",
+          "value": "",
+          "refValueFrom": "44",
+          "refValueTo": "133",
+          "unit": "mmol/L"
+        }
+      }
+    },
+    "575622135f24ca19a715d2a2": {
+      "id": "575622135f24ca19a715d2a2",
+      "category": "肝功能检验方案",
+      "active": true,
+      "items": {
+        "575567815f24063ff5d24ea8": {
+          "id": "575567815f24063ff5d24ea8",
+          "name": "血清丙氨酸氨基转移酶(ALT)测定",
+          "value": "",
+          "refValueFrom": "0",
+          "refValueTo": "40",
+          "unit": "u/L"
+        },
+        "575567815f24063ff5d24ea0": {
+          "id": "575567815f24063ff5d24ea0",
+          "name": "血清天门冬氨酸氨基转移酶(AST)测定",
+          "value": "",
+          "refValueFrom": "0",
+          "refValueTo": "40",
+          "unit": "u/L"
+        },
+        "575567815f24063ff5d24e83": {
+          "id": "575567815f24063ff5d24e83",
+          "name": "血清总蛋白(TP)测定",
+          "value": "",
+          "refValueFrom": "60",
+          "refValueTo": "80",
+          "unit": "g/L"
+        },
+        "575567815f24063ff5d24e85": {
+          "id": "575567815f24063ff5d24e85",
+          "name": "血清白蛋白(ALB)测定",
+          "value": "",
+          "refValueFrom": "40",
+          "refValueTo": "55",
+          "unit": "g/L"
+        },
+        "575567815f24063ff5d24eaa": {
+          "id": "575567815f24063ff5d24eaa",
+          "name": "血清总胆红素测定",
+          "value": "",
+          "refValueFrom": "3.4",
+          "refValueTo": "20",
+          "unit": "umol/L"
+        },
+        "575567815f24063ff5d24ea5": {
+          "id": "575567815f24063ff5d24ea5",
+          "name": "血清碱性磷酸酶(ALP)测定",
+          "value": "",
+          "refValueFrom": "40",
+          "refValueTo": "160",
+          "unit": "u/L"
+        },
+        "575a4021ce24461ab0ea62bc": {
+          "id": "575a4021ce24461ab0ea62bc",
+          "name": "直接胆红素(DBIL)测定",
+          "value": "",
+          "refValueFrom": "0",
+          "refValueTo": "7",
+          "unit": "umol/L"
+        }
+      }
+    },
+    "5846446fb93a268690992452": {
+      "id": "5846446fb93a268690992452",
+      "category": "血脂4项",
+      "active": true,
+      "items": {
+        "575567825f24063ff5d2523e": {
+          "id": "575567825f24063ff5d2523e",
+          "name": "血清总胆固醇(TC)测定 2",
+          "value": "",
+          "refValueFrom": "0.56",
+          "refValueTo": "1.70",
+          "unit": "mmol/L"
+        },
+        "575567815f24063ff5d24e7b": {
+          "id": "575567815f24063ff5d24e7b",
+          "name": "高密度脂蛋白胆固醇(HDL-C)测定",
+          "value": "",
+          "refValueFrom": "1.14",
+          "refValueTo": "1.76",
+          "unit": "mmol/L"
+        },
+        "575567815f24063ff5d24e79": {
+          "id": "575567815f24063ff5d24e79",
+          "name": "低密度脂蛋白胆固醇(LDL-C)测定",
+          "value": "",
+          "refValueFrom": "2.1",
+          "refValueTo": "3.1",
+          "unit": "mmol/L"
+        }
+      }
+    },
+    "5846446fb93a26869099244e": {
+      "id": "5846446fb93a26869099244e",
+      "category": "血糖检查",
+      "active": true,
+      "items": {
+        "577f2f565bb459da5e838abc": {
+          "id": "577f2f565bb459da5e838abc",
+          "name": "餐后2小时血糖测定",
+          "value": "",
+          "refValueFrom": "3.9",
+          "refValueTo": "7.8",
+          "unit": "mmol/L"
+        },
+        "575567815f24063ff5d24e73": {
+          "id": "575567815f24063ff5d24e73",
+          "name": "空腹血糖(FPG)测定",
+          "value": "",
+          "refValueFrom": "3.61",
+          "refValueTo": "6.11",
+          "unit": "mmol/L"
+        }
+      }
+    },
+    "5848c2fbb93a10a945374f1b": {
+      "id": "5848c2fbb93a10a945374f1b",
+      "category": "糖化血红蛋白测定",
+      "active": true,
+      "items": {
+        "577f2f565bb459da5e838ac4": {
+          "id": "577f2f565bb459da5e838ac4",
+          "name": "糖化血红蛋白(HbA1c)测定",
+          "value": "",
+          "refValueFrom": "5.6",
+          "refValueTo": "7.5",
+          "unit": "%"
+        }
+      }
+    },
+    "575622135f24ca19a715d31a": {
+      "id": "575622135f24ca19a715d31a",
+      "category": "尿液生化检查",
+      "active": true,
+      "items": {
+        "575567815f24063ff5d24f17": {
+          "id": "575567815f24063ff5d24f17",
+          "name": "尿肌酐测定",
+          "value": "",
+          "refValueFrom": "44",
+          "refValueTo": "106",
+          "unit": "umol/L"
+        }
+      }
+    }
+  },
+  "imgExamData": {
+    "575a4012ce24461ab0ea6087": {
+      "id": "575a4012ce24461ab0ea6087",
+      "category": "超声心动图检查",
+      "active": true,
+      "value": [],
+      "isMultiple": true,
+      "options": [
+        {
+          "id": "575567795f24063ff5d23994",
+          "name": "心脏彩超无异常",
+          "isNegative": false
+        },
+        {
+          "id": "575567755f24063ff5d22a19",
+          "name": "超声心动图:心腔增大",
+          "isNegative": true
+        },
+        {
+          "id": "575567715f24063ff5d21b5b",
+          "name": "超声心动图:心肌肥厚",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d2330f",
+          "name": "超声心动图:单心室",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232f4",
+          "name": "超声心动图:单心房",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22bc8",
+          "name": "超声心动图:心脏液性暗区",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d21fd8",
+          "name": "超声心动图:心包增厚",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d23005",
+          "name": "超声心动图:冠状动脉扩张",
+          "isNegative": true
+        },
+        {
+          "id": "575567715f24063ff5d21a4c",
+          "name": "超声心动图:冠状动脉动脉瘤",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22ed9",
+          "name": "超声心动图:冠状动脉异常起源于肺动脉",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232f2",
+          "name": "超声心动图:室间隔缺损",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d22a0b",
+          "name": "超声心动图:室间隔肥厚",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d23617",
+          "name": "超声心动图:室间隔穿孔",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232d2",
+          "name": "超声心动图:房间隔缺损",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d22ff7",
+          "name": "超声心动图:房间隔原发孔未闭",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d22ff8",
+          "name": "超声心动图:房间隔继发孔未闭",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d23717",
+          "name": "超声心动图:乳头肌断裂",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d22a0f",
+          "name": "超声心动图:室壁运动弥漫性减弱",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d21e4d",
+          "name": "超声心动图:局部室壁运动弥漫性减弱",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22f52",
+          "name": "超声心动图:E/A比值↓",
+          "isNegative": true
+        },
+        {
+          "id": "5755677a5f24063ff5d23c53",
+          "name": "超声心动图:E/A比值↑",
+          "isNegative": true
+        },
+        {
+          "id": "575567795f24063ff5d237c9",
+          "name": "超声心动图:心瓣膜病变",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d229fa",
+          "name": "超声心动图:主动脉瓣狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d22a00",
+          "name": "超声心动图:主动脉瓣关闭不全",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d2330e",
+          "name": "超声心动图:主动脉瓣无回声反射",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22fc2",
+          "name": "超声心动图:二叶主动脉瓣",
+          "isNegative": true
+        },
+        {
+          "id": "575567745f24063ff5d225cb",
+          "name": "超声心动图:二尖瓣狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d23435",
+          "name": "超声心动图:二尖瓣脱垂",
+          "isNegative": true
+        },
+        {
+          "id": "575567745f24063ff5d225e4",
+          "name": "超声心动图:二尖瓣关闭不全",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232fd",
+          "name": "超声心动图:二尖瓣无回声反射",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d21e65",
+          "name": "超声心动图:三尖瓣狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d23070",
+          "name": "超声心动图:三尖瓣下移",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d22010",
+          "name": "超声心动图:三尖瓣关闭不全",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22fe1",
+          "name": "超声心动图:三尖瓣无回声反射",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d22a17",
+          "name": "超声心动图:心瓣膜赘生物",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d23315",
+          "name": "超声心动图:肺动脉瓣狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232e4",
+          "name": "超声心动图:肺动脉瓣无回声反射",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d2202b",
+          "name": "超声心动图:肺动脉瓣关闭不全",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d2331d",
+          "name": "超声心动图:主动脉局部缩窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d22080",
+          "name": "超声心动图:主动脉瓣下型狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22f50",
+          "name": "超声心动图:主动脉瓣上型狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d232bc",
+          "name": "超声心动图:主动脉骑跨",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d2327d",
+          "name": "超声心动图:主动脉肺动脉错位",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22fc5",
+          "name": "超声心动图:主动脉夹层",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22fdb",
+          "name": "超声心动图:主动脉弓离断",
+          "isNegative": true
+        },
+        {
+          "id": "575567765f24063ff5d22fdc",
+          "name": "超声心动图:主动脉窦瘤",
+          "isNegative": true
+        },
+        {
+          "id": "575567775f24063ff5d22fec",
+          "name": "超声心动图:主动脉窦瘤破裂",
+          "isNegative": true
+        },
+        {
+          "id": "575567725f24063ff5d21e1e",
+          "name": "超声心动图:肺动脉狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d2331b",
+          "name": "超声心动图:肺动脉右室漏斗部狭窄",
+          "isNegative": true
+        },
+        {
+          "id": "575567785f24063ff5d23317",
+          "name": "超声心动图:动脉导管未闭",
+          "isNegative": true
+        },
+        {
+          "id": "575567755f24063ff5d22a07",
+          "name": "超声心动图:主-肺动脉间隔缺损",
+          "isNegative": true
+        }
+      ]
+    },
+    "577f2f575bb459da5e838ade": {
+      "id": "577f2f575bb459da5e838ade",
+      "category": "眼底镜检查",
+      "active": true,
+      "value": [],
+      "isMultiple": false,
+      "options": [
+        {
+          "id": "575567825f24063ff5d250ad",
+          "name": "Ⅰ级",
+          "isNegative": true
+        },
+        {
+          "id": "575567825f24063ff5d250ae",
+          "name": "Ⅱ级",
+          "isNegative": true
+        },
+        {
+          "id": "575567825f24063ff5d250af",
+          "name": "Ⅲ",
+          "isNegative": true
+        },
+        {
+          "id": "575567825f24063ff5d250b0",
+          "name": "Ⅳ级",
+          "isNegative": true
+        }
+      ]
+    }
+  },
+  "diagnosisData": {
+    "values": [],
+    "objects": []
+  }
+}
